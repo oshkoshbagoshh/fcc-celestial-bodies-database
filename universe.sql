@@ -325,6 +325,10 @@ INSERT INTO public.planet VALUES (5, 'Uranus', 'Ice giant', 25362, false, 1);
 INSERT INTO public.planet VALUES (6, 'Neptune', 'Ice giant', 24622, false, 1);
 INSERT INTO public.planet VALUES (7, 'Kepler-22b', 'Exoplanet', 12700, true, 3);
 INSERT INTO public.planet VALUES (8, 'Gliese 581 g', 'Exoplanet', 7160, true, 4);
+INSERT INTO public.planet VALUES (10, 'Kepler-186f', 'Exoplanet', 7160, true, 3);
+INSERT INTO public.planet VALUES (11, 'Kepler-442b', 'Exoplanet', 7160, true, 3);
+INSERT INTO public.planet VALUES (12, 'LHS 1140 b', 'Exoplanet', 7160, true, 3);
+INSERT INTO public.planet VALUES (13, 'TRAPPIST-1d', 'Exoplanet', 7160, true, 3);
 
 
 --
@@ -364,7 +368,7 @@ SELECT pg_catalog.setval('public.moon_moon_id_seq', 20, true);
 -- Name: planet_planet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.planet_planet_id_seq', 8, true);
+SELECT pg_catalog.setval('public.planet_planet_id_seq', 13, true);
 
 
 --
